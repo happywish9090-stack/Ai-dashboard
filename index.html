@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Video Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 { color: #38bdf8; }
+    .container { margin-top: 40px; }
+    button {
+      background: #38bdf8;
+      border: none;
+      padding: 15px 25px;
+      margin: 10px;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      color: black;
+      font-weight: bold;
+    }
+    button:hover { background: #0ea5e9; }
+    .status {
+      margin-top: 30px;
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      display: inline-block;
+      text-align: left;
+    }
+    .tag { color: #22c55e; }
+  </style>
+</head>
+<body>
+
+<h1>🤖 AI Video Automation Dashboard</h1>
+<p>Create & Auto-Post Videos Daily</p>
+
+<div class="container">
+  <button onclick="alert('Script Generated (Demo)')">📝 Generate Script</button>
+  <button onclick="alert('Voice Generated (Demo)')">🎤 Generate Voice</button>
+  <button onclick="alert('Video Created (Demo)')">🎬 Create Video</button>
+  <button onclick="alert('Video Posted (Demo)')">📤 Post Video</button>
+</div>
+
+<div class="status">
+  <h3>📊 Today Status</h3>
+  <p>Script: <span class="tag">Ready</span></p>
+  <p>Voice: <span class="tag">Ready</span></p>
+  <p>Video: <span class="tag">Ready</span></p>
+  <p>Upload: <span class="tag">Waiting</span></p>
+</div>
+
+</body>
+</html>
